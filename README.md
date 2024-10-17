@@ -2,7 +2,8 @@
 
 ## Architecture
 
-* The project code is organized as follows:
+
+The project code is organized as follows:
 
 1. `config/`: This directory contains the configuration of the application, including environment variables.
 2. `models/`: This folder contains the model definition for our API such as the `Repo` and `Language`.
