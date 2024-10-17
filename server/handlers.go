@@ -28,7 +28,6 @@ func PongHandler(w http.ResponseWriter, r *http.Request, _ map[string]string) er
 	return nil
 }
 
-// getUrlFilter parses URL raw query and returns a filter string in the required format
 func getUrlFilter(urlRawQuery string) string {
 	log := logger.Get(context.Background())
 	params, err := url.ParseQuery(urlRawQuery)
